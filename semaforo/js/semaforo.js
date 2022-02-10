@@ -31,8 +31,8 @@ function mostraSinalVerde() {
 function mudarSemaforo(cor) {
     const img = document.createElement("img")
     img.id = "imagem-semaforo";
-    img.style.width = "117";
-    img.style.height = "244";
+    img.style.width = "117px";
+    img.style.height = "244px";
 
     switch (cor) {
         case VERMELHO:
