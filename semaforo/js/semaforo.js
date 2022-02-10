@@ -2,13 +2,13 @@ const botaoVermelho = document.querySelector("#botao-vermelho");
 const botaoAmarelo = document.querySelector("#botao-amarelo");
 const botaoVerde = document.querySelector("#botao-verde");
 
-var VERMELHO = "vermelho";
-var AMARELO = "amarelo";
-var VERDE = "verde";
-
 botaoVermelho.addEventListener("click", mostraSinalVermelho);
 botaoAmarelo.addEventListener("click", mostraSinalAmarelo);
 botaoVerde.addEventListener("click", mostraSinalVerde);
+
+var VERMELHO = "vermelho";
+var AMARELO = "amarelo";
+var VERDE = "verde";
 
 function mostraSinalVermelho() {
     removeSemaforoAnterior()
